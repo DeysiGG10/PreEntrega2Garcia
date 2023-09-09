@@ -1,0 +1,66 @@
+@use "variables";
+
+/*cartas destinos cruzeros*/
+.carousel-body {
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 0px rgb(145, 145, 77);
+    background: linear-gradient(to top, #dbd6cf 0%, #235896 100%);
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    background-color: #000;
+}
+
+#carouselExample1 img,
+#carouselExample2 img,
+#carouselExample3 img,
+#carouselExample4 img,
+#carouselExample5 img,
+#carouselExample6 img,
+#carouselExample7 img,
+#carouselExample8 img {
+    width: 100%;
+    height: 250px;
+    padding: 6px;
+}
+.carousel-item img {
+    width: 10%;
+    height: 250px;
+    padding: 6px;
+    margin-bottom: 12px;
+    
+   
+}
+
+.carousel-body img {
+    width: 30px;
+}
+
+.carousel-title {
+    font-size: 2.2rem;
+    margin-left: 15px;
+    color: variables.$colorA;
+    text-shadow: 2px 0px 2px rgb(15, 14, 14);
+}
+
+.carousel-title i {
+    color: #2c2922;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 18px;
+
+}
+
+.carousel-text {
+    font-size: 1.4rem;
+    margin-left: 18px;
+    text-align: center center;
+    font-weight: normal;
+}

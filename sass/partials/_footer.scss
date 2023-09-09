@@ -1,0 +1,43 @@
+@use "variables";
+
+footer {
+    .redes {
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+        letter-spacing: 15px;
+    }
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: variables.$colorB;
+    color: black;
+}
+
+footer .redes i:hover {
+    color: variables.$colorA;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+@media (max-width:540px) {
+    footer .redes {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width:540px) {
+    footer h2 {
+        font-size: 1.5rem;
+    }
+}
