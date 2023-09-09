@@ -45,7 +45,6 @@ header {
   color: #e2be1c;
 }
 
-/*barra*/
 .logo i {
   color: #141414;
   font-size: 3.5rem;
@@ -117,7 +116,6 @@ header {
   text-align: center;
   padding-top: 200px;
 }
-
 .contenedor_portada h1 {
   color: rgb(240, 239, 230);
   font-size: 5rem;
@@ -126,7 +124,6 @@ header {
   margin-top: 60px;
   text-shadow: 0px 1px 1px black;
 }
-
 .contenedor_portada h2 {
   color: rgb(252, 250, 250);
   font-size: 5rem;
@@ -178,30 +175,27 @@ header {
   text-align: center;
   align-items: center;
 }
-.containerTour .cardPortada img {
-  height: 250px;
-  width: 100%;
-}
-
-.cardPortada h2 {
+.containerTour .cardPortada h2 {
   color: #e2be1c;
   text-shadow: 0px 1px 1px rgb(32, 22, 22);
   margin: 15px;
   font-weight: bold;
 }
-
-.cardPortada p {
+.containerTour .cardPortada p {
   padding: 0 1rem;
   font-size: 1.5em;
   margin-bottom: 0px;
   font-weight: normal;
 }
-
-.cardPortada a {
+.containerTour .cardPortada a {
   margin-bottom: 0;
   font-size: 1.4rem;
   font-weight: 500;
-  color: #050505;
+  color: #030303;
+}
+.containerTour .cardPortada img {
+  height: 250px;
+  width: 100%;
 }
 
 .contenedorQSomos {
@@ -216,7 +210,6 @@ header {
   overflow: hidden;
   background-color: #659dc2;
 }
-
 .contenedorQSomos h2 {
   text-align: center;
   align-items: center;
@@ -229,6 +222,56 @@ header {
   font-family: "Finger Paint", cursive;
 }
 
+@media (max-width: 850px) {
+  .portada {
+    width: 98%;
+    background-position: 80%;
+    margin-left: 2px;
+    height: 400px;
+  }
+}
+@media (max-width: 850px) {
+  .portada .contenedor_portada h1 {
+    margin-left: 2px;
+    font-size: 2.5rem;
+    margin-top: 0px;
+  }
+  .portada .contenedor_portada h5 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 992px) {
+  .contenedorQSomos h2 {
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 772px) {
+  .contenedorQSomos h2 {
+    font-size: 1.8rem;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 650px) {
+  .contenedorQSomos h2 {
+    font-size: 1.7rem;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .contenedorQSomos h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedorQSomos {
+    background-size: 95%;
+    background-position: center center;
+  }
+}
 .cardDestinos {
   width: 90%;
   height: 520px;
@@ -244,28 +287,26 @@ header {
   margin: auto;
   padding: 6px;
 }
-.cardDestinos img .card-body {
+
+.card-body {
   background: transparent;
   padding: 10px;
 }
-
-.cardDestinos .card-body h3 {
+.card-body h3 {
   margin-left: 10px;
   font-size: 2rem;
   font-weight: 500;
   color: #e2be1c;
   text-shadow: 2px 0px 2px rgb(15, 14, 14);
 }
-
-.cardDestinos .card-body p {
+.card-body p {
   margin-top: 20px;
   margin-left: 10px;
   font-size: 1.4rem;
   text-align: center center;
   font-weight: normal;
 }
-
-.cardDestinos .card-body img {
+.card-body img {
   width: 50px;
   height: auto;
   margin-left: 0;
@@ -340,25 +381,14 @@ header {
   margin-bottom: 12px;
 }
 
-.carousel-body img {
-  width: 30px;
-}
-
 .carousel-title {
   font-size: 2.2rem;
   margin-left: 15px;
   color: #e2be1c;
   text-shadow: 2px 0px 2px rgb(15, 14, 14);
 }
-
 .carousel-title i {
-  color: #2c2922;
-}
-
-p {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-left: 18px;
+  color: #11110f;
 }
 
 .carousel-text {
@@ -385,56 +415,6 @@ p {
   font-weight: normal;
 }
 
-@media (max-width: 850px) {
-  .portada {
-    width: 98%;
-    background-position: 80%;
-    margin-left: 2px;
-    height: 400px;
-  }
-}
-@media (max-width: 850px) {
-  .portada .contenedor_portada h1 {
-    margin-left: 2px;
-    font-size: 2.5rem;
-    margin-top: 0px;
-  }
-  .portada .contenedor_portada h5 {
-    font-size: 5rem;
-  }
-}
-@media (max-width: 992px) {
-  .contenedorQSomos h2 {
-    font-size: 2rem;
-    margin-top: 100px;
-  }
-}
-@media (max-width: 772px) {
-  .contenedorQSomos h2 {
-    font-size: 1.8rem;
-    margin-top: 70px;
-  }
-}
-@media (max-width: 650px) {
-  .contenedorQSomos h2 {
-    font-size: 1.7rem;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-}
-@media (max-width: 480px) {
-  .contenedorQSomos h2 {
-    font-size: 1.5rem;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .contenedorQSomos {
-    background-size: 95%;
-    background-position: center center;
-  }
-}
 @media (max-width: 1203px) {
   .cardNosotros img {
     width: 420px;
@@ -443,16 +423,6 @@ p {
   .textNosotros p {
     font-size: 1.8rem;
     margin-top: 70px;
-  }
-}
-@media (max-width: 992px) {
-  .cardNosotros img {
-    width: 350px;
-    height: 350px;
-  }
-  .textNosotros p {
-    font-size: 1.4rem;
-    margin-top: 30px;
   }
 }
 @media (max-width: 770px) {

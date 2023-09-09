@@ -17,3 +17,29 @@
     font-size: 2rem;
     font-weight: normal;
 }
+@media (max-width:1203px) {
+    .cardNosotros img {
+        width: 420px;
+        height: 420px;
+    }
+
+    .textNosotros p {
+        font-size: 1.8rem;
+        margin-top: 70px;
+    }
+}
+
+
+@media (max-width:770px) {
+    .cardNosotros img {
+        width: 305px;
+        height: 305px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .textNosotros p {
+        font-size: 1.4rem;
+        margin-right: 50px;
+    }
+}

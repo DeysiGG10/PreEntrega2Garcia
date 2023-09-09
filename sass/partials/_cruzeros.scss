@@ -35,32 +35,20 @@
     
    
 }
-
-.carousel-body img {
-    width: 30px;
-}
-
 .carousel-title {
+     i {
+        color: #11110f;
+    }
     font-size: 2.2rem;
     margin-left: 15px;
     color: variables.$colorA;
     text-shadow: 2px 0px 2px rgb(15, 14, 14);
 }
-
-.carousel-title i {
-    color: #2c2922;
-}
-
-p {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-left: 18px;
-
-}
-
 .carousel-text {
     font-size: 1.4rem;
     margin-left: 18px;
     text-align: center center;
     font-weight: normal;
+
 }
+
