@@ -7,15 +7,23 @@
         margin-bottom: 220px;
         margin-top: 60px;
         height: 480px;
+        border: solid 2px rgb(212, 142, 11);
     }
     width: 100%;
     height: 800px;
+    
 
 }
 .textNosotros p {
-    margin-top: 70px;
-    font-size: 2rem;
-    font-weight: normal;
+    width: 100%;
+    height: 420px;
+    margin-top: 60px;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    border: solid 2px rgb(212, 142, 11);
+    background: linear-gradient(to top, #dbd6cf 0%, #a0b3c9 100%);
 }
 @media (max-width:1203px) {
     .cardNosotros img {
@@ -25,7 +33,6 @@
 
     .textNosotros p {
         font-size: 1.8rem;
-        margin-top: 70px;
     }
 }
 
@@ -34,12 +41,33 @@
     .cardNosotros img {
         width: 305px;
         height: 305px;
-        margin: 0;
-        margin-left: 20px;
+        margin: 20px;
+        
     }
 
     .textNosotros p {
-        font-size: 1.4rem;
-        margin-right: 50px;
+        width: 305px;
+        height: 305px;
+        font-size: 1.2rem;
+        margin-top: auto;
+        margin: 20px;
+       
+    }
+}
+@media (max-width:1180px) {
+    .cardNosotros img {
+        width: 305px;
+        height: 305px;
+        margin: 20px;
+        
+    }
+
+    .textNosotros p {
+        width: 305px;
+        height: 305px;
+        font-size: 1.2rem;
+        margin-top: auto;
+        margin: 20px;
+       
     }
 }
